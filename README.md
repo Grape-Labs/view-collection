@@ -1,5 +1,5 @@
 # publickey-collection
-Handles Listing of:
+Function that Handles Listing of:
 - NFT collections of an account owner (using their Pubkey)
 
 Note:
