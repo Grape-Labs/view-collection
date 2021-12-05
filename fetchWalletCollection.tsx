@@ -1,4 +1,4 @@
-const fetchWalletCollection = async () => { // TODO: add error handling
+   const fetchWalletCollection = async () => { // TODO: add error handling
         const body = {
           method: "getTokenAccountsByOwner",
           jsonrpc: "2.0",
