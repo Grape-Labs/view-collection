@@ -3,11 +3,11 @@ const fetchWalletCollection = async () => { // TODO: add error handling
           method: "getTokenAccountsByOwner",
           jsonrpc: "2.0",
           params: [
-            pubkey,
+            publicKey, // The Wallet Public Key we are querying (this can be obtained directly from useWallet() from the connected wallet / or manually setting this String value)
             { programId: "<Pubkey of the Token program ID that owns the accounts, as base-58 encoded string>" },
             { encoding: "jsonParsed", commitment: "processed" },
           ],
-          id: "<Set your id here>",
+          id: "<Set your id here>", // an internal ID so you can reference the call you are making later on
         };
         
         const response = await fetch("https://solana-api.projectserum.com/", {
