@@ -1,6 +1,6 @@
-# publickey-collection
+# view-collection
 Function that Handles Listing of:
-- NFT collections of an account owner (using their Pubkey)
+- NFT collections of an account owner (by Public Key)
 
 Note:
 - This will return the holders per public key & filter for an nft
