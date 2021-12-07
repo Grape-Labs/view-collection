@@ -7,7 +7,7 @@
             { programId: "<Pubkey of the Token program ID that owns the accounts, as base-58 encoded string>" },
             { encoding: "jsonParsed", commitment: "processed" },
           ],
-          id: "<Set your id here>", // an internal ID so you can reference the call you are making later on
+          id: "<Set ref id here>", // ref call id
         };
         
         const response = await fetch("https://solana-api.projectserum.com/", {
