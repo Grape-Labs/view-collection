@@ -3,7 +3,7 @@ Function that Handles Listing of:
 - NFT collections of an account owner (using their Pubkey)
 
 Note:
-- This will return the results
+- This will return the holders per public key & filter for an nft
 - *for metadata another query will be needed to retrieve additional mint metadata
 
 TODO:
