@@ -1,5 +1,5 @@
 # view-collection
-Function that Handles Listing of:
+Basic function that Handles Listing of:
 - NFT collections of an account owner (by Public Key)
 
 Note:
